@@ -1,0 +1,130 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container with a full-width background */
+.main {
+    width: 100vw;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('4.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo styling */
+.logo {
+    color: #ff7200;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background: transparent !important;
+    padding: 1rem 0;
+}
+
+.nav-link {
+    margin: 0 5px;
+    color: #ffffff !important;
+    border: 2px solid #ff7200;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+    background: #ff7200;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+/* Carousel Styling */
+.carousel-inner {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    object-fit: scale-down;
+    height: 640px;
+    width: 640px;
+}
+
+.carousel-indicators li {
+    background-color: #ff7200;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Content styling */
+.content {
+    color: #ffffff;
+    text-align: left;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.content h1 span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+/* Contact button styling */
+.btn-warning {
+    background-color: #ff7200;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: .4s ease;
+}
+
+.btn-warning a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-warning a:hover {
+    color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar .logo {
+        font-size: 30px;
+    }
+
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .content h1 span {
+        font-size: 45px;
+    }
+
+    .carousel-inner {
+        height: 40vh;
+    }
+}

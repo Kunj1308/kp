@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(4.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1700px;
+    height: 75px;
+    margin: auto;
+}
+.logo{
+    color: #ff7200;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -70px;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 500px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 75px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    display: inline;
+    white-space: nowrap;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.form {
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering the form */
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form h2{
+    width: 260px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 9px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 2px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
